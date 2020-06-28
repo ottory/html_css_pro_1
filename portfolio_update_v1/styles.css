@@ -18,7 +18,7 @@ a {
   color: #999;
 }
 a:hover {
-  color: #6633ff;
+  color: #131411ec;
 }
 
 /* Section Styles */
@@ -57,7 +57,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('/DrewsFolder/DrewsCoding/html_css_pro_1/portfolio_update_v1/images/new_background.jpg') no-repeat top center ;
+  background: url('../portfolio_update_v1/images/new_background.jpg') no-repeat top center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -99,7 +99,7 @@ header .profile-image:hover {
   transition: all .5s;
 }
 .card:hover {
-  border-color: #ff99ff;
+  border-color: #ee1f1f;
 }
 
 ul.skills {
@@ -151,12 +151,7 @@ a.social {
   opacity: .4;
   transition: all .5s;
 }
-a.twitter {
-  background-image: url(images/twitter.svg);
-}
-a.linkedin {
-  background-image: url(images/linkedin.svg);
-}
+
 a.github {
   background-image: url(images/github.svg);
 }
@@ -202,6 +197,7 @@ a.social:hover {
     max-width: 1200px;
     margin: 40px auto;
   }
+  
 
 }
 
